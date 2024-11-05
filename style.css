@@ -1,0 +1,616 @@
+@keyframes slideInTop {
+    from {
+        color: black;
+        opacity: 0%;
+        transform: translateY(-500px);
+
+    }
+    to {
+        color: white;
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+@keyframes Opacity {
+    from {
+        color: black;
+        opacity: 0%;
+
+    }
+    to {
+        color: white;
+        opacity: 100%;
+    }
+}
+body {
+    background-color: rgb(4, 5, 5);
+}
+.videos {
+    width: 300px;
+}
+.names {
+    opacity: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 360px;
+    font-size: 75px;
+    font-family: "Times New Roman", Helvetica, serif;
+    animation-name: slideInTop;
+    animation-duration: 2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    font-weight: bolder;
+}
+.projects {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.subproject {
+    margin-left: 20%;
+    padding: 10px;
+
+}
+.backimg{
+    background-image: url("saf.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    mix-blend-mode:lighten;
+}
+.secondimg {
+    background-image: url("saf3.jpg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: difference;
+}
+.para2 {
+    opacity: 0%;
+    color: black;
+    font-family: "Garamond", Helvetica, serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation-name: slideInTop;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    font-size: 12px;
+}
+.logo-content{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    opacity: 100%;
+    height: 40px;
+    width: 40px;
+}
+.discord {
+    opacity: 0%;
+    animation-name: Opacity;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+.snapchat {
+    opacity: 0%;
+    animation-name: Opacity;
+    animation-duration: 2s;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+.instagram {
+    opacity: 0%;
+    animation-name: Opacity;
+    animation-duration: 2s;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+.resume {
+    opacity: 0%;
+    animation-name: Opacity;
+    animation-duration: 2s;
+    animation-delay: 3.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+
+.name {
+    opacity: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 75px;
+    font-family: "Times New Roman", Helvetica, serif;
+    animation-name: slideInTop;
+    animation-duration: 2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    font-weight: bolder;
+}
+.para{
+    opacity: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    align-items: center;
+    font-size: 20px;
+    padding: 25px;
+    font-family: "Garamond", Helvetica, serif;
+    animation-name: Opacity;
+    animation-duration: 2s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.container {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+button:hover {
+    transform: scale(2);
+}
+@media screen and (max-width: 1280px){
+    .name{
+        font-size: 50px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 20px;
+    }
+    .videos {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .name{
+        font-size: 50px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 20px;
+    }
+    .backimg {
+        background-position: 0% 60%;
+    }
+    .videos {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .name{
+        font-size: 45px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 18px;
+        margin-left: 8%;
+        margin-right: 11%;
+    }
+    .backimg {
+        background-position: 0% 50%;
+    }
+    .videos {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 830px){
+    .name{
+        font-size: 40px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 17px;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+    .backimg {
+        background-position: 55% 50%;
+        background-size: 125%;
+    }
+    .videos {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 770px){
+    .name{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 17px;
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 55% 50%;
+    }
+    .videos {
+        width: 140px;
+    }
+}
+@media screen and (max-width: 700px){
+    .name{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 16px;
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 55% 50%;
+        background-size: 145%;
+    }
+    .videos {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 640px){
+    .name{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 15px;
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 55% 40%;
+        background-size: 150%;
+    }
+    .videos {
+        width: 130px;
+    }
+}
+@media screen and (max-width: 590px){
+    .name{
+        font-size: 35px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 15px;
+        margin-left: 4%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 50% 45%;
+        background-size: 160%;
+    }
+    .videos {
+        width: 200px;
+        margin-left: -10%;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 540px){
+    .name{
+        font-size: 25px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 13px;
+        margin-left: 3%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 50% 40%;
+        background-size: 160%;
+    }
+    .videos {
+        width: 200px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 500px){
+    .name{
+        font-size: 26px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 13px;
+        margin-left: 3%;
+        margin-right: 8%;
+    }
+    .backimg {
+        background-position: 50% 45%;
+        background-size: 190%;
+    }
+    .videos {
+        width: 200px;
+    }
+    .secondimg {
+        background-size: 120%;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 450px){
+    .name{
+        font-size: 25px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 12px;
+        margin-left: 2%;
+        margin-right: 6%;
+    }
+    .backimg {
+        background-position: 50% 45%;
+        background-size: 215%;
+    }
+    .videos {
+        width: 230px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .secondimg {
+        background-size: 120%;
+    }
+    .videos {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 430px){
+    .name{
+        font-size: 25px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 10px;
+        margin-left: -2%;
+        margin-right: 6%;
+    }
+    .backimg {
+        background-position: 50% 25%;
+        background-size: 215%;
+    }
+    .videos {
+        width: 230px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 7%;
+    }
+}
+@media screen and (max-width: 400px){
+    .name{
+        font-size: 25px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 10px;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+    .backimg {
+        background-position: 50% 20%;
+        background-size: 250%;
+    }
+    .videos {
+        width: 230px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 6%;
+    }
+    .secondimg {
+        background-size: 150%;
+    }
+    .para2 {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 370px){
+    .name{
+        font-size: 20px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 11px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .backimg {
+        background-position: 50% 20%;
+        background-size: 300%;
+    }
+    .videos {
+        width: 230px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 5%;
+    }
+    .para2 {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 340px){
+    .name{
+        font-size: 20px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 10px;
+        margin-left: 0%;
+        margin-right: 2%;
+    }
+    .backimg {
+        background-position: 50% 20%;
+        background-size: 350%;
+    }
+    .videos {
+        width: 200px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 2%;
+    }
+    .secondimg {
+        background-size: 200%;
+    }
+}
+@media screen and (max-width: 301px){
+    .name{
+        font-size: 16px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 9px;
+        margin-left: -6%;
+        margin-right: -6%;
+    }
+    .backimg {
+        background-position: 50% 0%;
+        background-size: 370%;
+    }
+    .videos {
+        width: 180px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 290px){
+    .name{
+        font-size: 14px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 9px;
+        margin-left: -6%;
+        margin-right: -6%;
+    }
+    .backimg {
+        background-position: 50% 0%;
+        background-size: 370%;
+    }
+    .para2 {
+        font-size: 7px;
+    }
+    .videos {
+        width: 180px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: 0%;
+    }
+    .names {
+        font-size: 60px;
+    }
+    .secondimg {
+        background-size: 250%;
+    }
+}
+@media screen and (max-width: 250px){
+    .name{
+        font-size: 12px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 9px;
+        margin-left: -7%;
+        margin-right: -7%;
+    }
+    .backimg {
+        background-position: 50% 30%;
+        background-size: 370%;
+    }
+    .para2 {
+        font-size: 5px;
+    }
+    .videos {
+        width: 140px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left:-1%;
+    }
+    .names {
+        font-size: 55px;
+    }
+    .secondimg {
+        background-size: 250%;
+    }
+}
+@media screen and (max-width: 230px){
+    .name{
+        font-size: 10px;
+        margin-top: 7%;
+    }
+    .para {
+        font-size: 7px;
+        margin-left: -5%;
+        margin-right: -5%;
+    }
+    .backimg {
+        background-position: 50% 30%;
+        background-size: 370%;
+    }
+    .para2 {
+        font-size: 5px;
+    }
+    img {
+        height: 20px;
+        width: 20px;
+    }
+    .videos {
+        width: 140px;
+    }
+    .projects {
+        display: inline-block;
+        margin-left: -1%;
+    }
+    .secondimg {
+        background-size: 300%;
+    }
+}
